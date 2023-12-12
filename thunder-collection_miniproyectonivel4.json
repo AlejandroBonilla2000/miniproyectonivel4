@@ -1,0 +1,240 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "miniproyectonivel4",
+    "dateExported": "2023-12-12T02:57:12.989Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7ebd13a4-0692-4e02-8df9-9654c05085d7",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "alumnos",
+            "url": "http://127.0.0.1:8000/api/alumnos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-12T00:51:57.109Z",
+            "modified": "2023-12-12T02:37:09.674Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "458882bc-3a0c-415c-872c-4c547ac54bc6",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "alumnos ",
+            "url": "http://127.0.0.1:8000/api/alumnos/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-12T00:55:12.635Z",
+            "modified": "2023-12-12T00:56:40.066Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n   \"nombre\": \"mario\",\r\n    \"apellido\": \"Jerde\",\r\n    \"correo\": \"janessa27@yahoo.com\" \r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "343467ef-953b-40ba-b476-0bd22521865f",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "alumnos",
+            "url": "http://127.0.0.1:8000/api/alumnos/21",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-12T02:28:07.129Z",
+            "modified": "2023-12-12T02:33:07.858Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombre\": \"marioo\",\r\n    \"apellido\": \"Jerde\",\r\n    \"correo\": \"janessa27@yahoo.com\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8eeef4e9-a029-420e-a860-5d22d8b73cd1",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "alumnos",
+            "url": "http://127.0.0.1:8000/api/alumnos/21",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-12-12T02:37:35.049Z",
+            "modified": "2023-12-12T02:38:32.630Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombre\": \"mario\",\r\n    \"apellido\": \"Jerde\",\r\n    \"correo\": \"janessa27@yahoo.com\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1f861f97-5ce6-442f-bf39-e01210dc853d",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "docentes",
+            "url": "http://127.0.0.1:8000/api/docentes",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-12-12T02:40:34.219Z",
+            "modified": "2023-12-12T02:41:20.942Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "96ec0e96-cf89-41b7-978a-664afcee533f",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "docentes",
+            "url": "http://127.0.0.1:8000/api/docentes",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-12-12T02:41:39.553Z",
+            "modified": "2023-12-12T02:42:37.189Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"nombre\": \"Cyrus Koelpinn\",\n    \"apellido\": \"Stam\",\n    \"correo\": \"hhermiston@reynolds.info\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b8305df3-04af-48bd-b53f-a91783460c17",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "docentes",
+            "url": "http://127.0.0.1:8000/api/docentes/23",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2023-12-12T02:43:47.437Z",
+            "modified": "2023-12-12T02:44:26.946Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": " {\n    \"nombre\": \"Cyrus\",\n    \"apellido\": \"Stam\",\n    \"correo\": \"hhermiston@reynolds.info\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d62c550e-b11b-48d4-a15a-792c91ba822e",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "docentes",
+            "url": "http://127.0.0.1:8000/api/docentes/23",
+            "method": "DELETE",
+            "sortNum": 110000,
+            "created": "2023-12-12T02:44:53.836Z",
+            "modified": "2023-12-12T02:45:11.430Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bae49dea-e433-4534-8d62-5f6259a8ff3f",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "cursos",
+            "url": "http://127.0.0.1:8000/api/cursos",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-12-12T02:48:52.619Z",
+            "modified": "2023-12-12T02:49:05.037Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "277190ae-81bf-44de-b9cf-e127f45ead70",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "cursos",
+            "url": "http://127.0.0.1:8000/api/cursos",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2023-12-12T02:49:24.805Z",
+            "modified": "2023-12-12T02:50:29.463Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"asignaturas\": \"Programacion\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "26132ca7-0d19-48e3-9049-263d560425a8",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "cursos",
+            "url": "http://127.0.0.1:8000/api/cursos/21",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2023-12-12T02:50:44.720Z",
+            "modified": "2023-12-12T02:51:48.627Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"asignaturas\": \"Laravel\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d16bdcbc-1f0c-47d6-95b9-d2d43c9d7e3b",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "cursos",
+            "url": "http://127.0.0.1:8000/api/cursos/21",
+            "method": "DELETE",
+            "sortNum": 150000,
+            "created": "2023-12-12T02:52:23.080Z",
+            "modified": "2023-12-12T02:52:37.241Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "804b8a1c-f7fe-4823-a143-45569565e265",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "matriculas",
+            "url": "http://127.0.0.1:8000/api/matriculas",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2023-12-12T02:53:33.613Z",
+            "modified": "2023-12-12T02:53:45.210Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "df7967c9-900f-459a-bccc-39b8393d8096",
+            "colId": "0ac99e51-c19d-48a0-8114-d004224b577e",
+            "containerId": "",
+            "name": "registros",
+            "url": "http://127.0.0.1:8000/api/registros",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-12-12T02:54:35.116Z",
+            "modified": "2023-12-12T02:54:44.302Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
